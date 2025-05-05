@@ -15,9 +15,6 @@ body {
 
 /* HEADER */
 
-header {
-  background-color: aqua;
-}
 
 .header-style {
   padding: 25px 0;
@@ -54,9 +51,31 @@ header ul li a {
 
 .main-top h2 {
   color: white;
-  padding: 30px 10px;
+  padding: 40px 10px;
 }
 
 .main-bottom {
   background-color: rgb(22, 104, 255);
+}
+
+.main-bottom ul {
+  padding: 30px 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.main-bottom ul li {
+  padding: 10px;
+  color: white;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-bottom ul li img {
+  width: 2.5rem;
+  margin-right: 10px;
 }
