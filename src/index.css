@@ -45,3 +45,18 @@ header ul li a {
   font-weight: bold;
   font-size: 0.8rem;
 }
+
+/* MAIN */
+
+.main-top {
+  background-color: black;
+}
+
+.main-top h2 {
+  color: white;
+  padding: 30px 10px;
+}
+
+.main-bottom {
+  background-color: rgb(22, 104, 255);
+}
