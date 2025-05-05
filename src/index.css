@@ -123,3 +123,39 @@ header ul li a {
   left: 50%;
   transform: translate(0, -50%);
 }
+
+.footer-bottom {
+  background-color: rgb(81, 81, 81);
+}
+
+button {
+  border: 3px solid blue;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  margin: 20px 0;
+}
+
+h3 {
+  color: blue;
+  margin-right: 20px;
+}
+
+.final-foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right-foot img {
+  width: 2rem;
+  margin: 10px;
+}
