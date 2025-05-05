@@ -84,7 +84,14 @@ header ul li a {
 
 .footer-top {
   background-image: url("./assets/img/footer-bg.jpg");
-  /* height: 500px; */
+  background-size: cover;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .foot-list {
@@ -100,4 +107,19 @@ header ul li a {
 .foot-list ul {
   margin: 10px 0;
   list-style-type: none;
+}
+
+.foot-list ul li {
+  color: lightgray;
+  font-size: 0.8rem;
+
+}
+
+.footer-top figure {
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
 }
