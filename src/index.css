@@ -56,6 +56,8 @@ header ul li a {
 
 .main-bottom {
   background-color: rgb(27, 162, 252);
+  position: relative;
+  z-index: 1;
 }
 
 .main-bottom ul {
@@ -126,6 +128,8 @@ header ul li a {
 
 .footer-bottom {
   background-color: rgb(81, 81, 81);
+  position: relative;
+  z-index: 1;
 }
 
 button {
