@@ -16,10 +16,18 @@ body {
 /* HEADER */
 
 header {
-  padding: 15px 0;
+  background-color: aqua;
+}
+
+.header-style {
+  padding: 25px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+header figure {
+  width: 100%;
 }
 
 header ul {
