@@ -163,18 +163,18 @@ const ListComics = () => {
         <div>
             <div className="container card-container">
 
-                <ComicCard src={comics[0].thumb} title="Action Comics" />
-                <ComicCard src="https://imgs.search.brave.com/OU2E3_3vA7flyv-SJ3TcFW1d99KDlp5ZfmW9ylLLFDo/rs:fit:1012:1200:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnN1/cGVycG91dm9pci5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDcvQW1lcmlj/YW4tVmFtcGlyZS0x/OTc2LTAxLWNvdi1B/bGJ1cXVlcnF1ZS0y/MDIwLmpwZz9yZXNp/emU9MTAxMiUyQzE1/NTYmc3NsPTE" title="American Vampire 1976" />
-                <ComicCard src="https://imgs.search.brave.com/gAZQuZyt6WjcUWF6aXCIBaiJqtOJAK-X4nxS9Vbvwno/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC85Nzgx/NDAxMjc1NDI2Lmpw/Zw" title="Aquaman" />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
-                <ComicCard />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                <ComicCard src={comics[0].thumb} title={comics[0].title} />
 
             </div>
         </div>
