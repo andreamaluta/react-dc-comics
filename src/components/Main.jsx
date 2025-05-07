@@ -4,6 +4,9 @@ const Main = () => {
     return (
         <main>
             <div className="main-top">
+                <div className="jumbotron">
+
+                </div>
                 <div className="container">
                     <ListComics />
                 </div>
