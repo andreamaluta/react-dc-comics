@@ -163,7 +163,15 @@ const ListComics = () => {
         <div>
             <div className="container card-container">
 
-                <ComicCard src={comics[0].thumb} title={comics[0].title} />
+                {/* {comics.map((comic) => (
+                    <ComicCard src={comic.thumb} title={comic.title} />
+                ))} */}
+
+                {comics.map((comic) => (
+                    <ComicCard comic={comic} />
+                ))}
+
+                {/* <ComicCard src={comics[0].thumb} title={comics[0].title} />
                 <ComicCard src={comics[1].thumb} title={comics[1].title} />
                 <ComicCard src={comics[2].thumb} title={comics[2].title} />
                 <ComicCard src={comics[3].thumb} title={comics[3].title} />
@@ -174,7 +182,7 @@ const ListComics = () => {
                 <ComicCard src={comics[8].thumb} title={comics[8].title} />
                 <ComicCard src={comics[9].thumb} title={comics[9].title} />
                 <ComicCard src={comics[10].thumb} title={comics[10].title} />
-                <ComicCard src={comics[11].thumb} title={comics[11].title} />
+                <ComicCard src={comics[11].thumb} title={comics[11].title} /> */}
 
             </div>
         </div>
