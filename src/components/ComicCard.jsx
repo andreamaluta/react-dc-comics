@@ -3,8 +3,8 @@ import React from 'react'
 const ComicCard = (props) => {
     return (
         <div className="comic-card">
-            <img src={props.comic.thumb} alt="" />
-            <h4>{props.comic.title}</h4>
+            <img src={props.thumb} alt="" />
+            <h4>{props.title}</h4>
         </div>
     )
 }

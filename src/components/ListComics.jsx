@@ -163,13 +163,13 @@ const ListComics = () => {
         <div>
             <div className="container card-container">
 
-                {/* {comics.map((comic) => (
-                    <ComicCard src={comic.thumb} title={comic.title} />
-                ))} */}
-
                 {comics.map((comic) => (
-                    <ComicCard comic={comic} />
+                    <ComicCard key={comic.id} src={comic.thumb} title={comic.title} />
                 ))}
+
+                {/* {comics.map((comic) => (
+                    <ComicCard comic={comic} />
+                ))} */}
 
                 {/* <ComicCard src={comics[0].thumb} title={comics[0].title} />
                 <ComicCard src={comics[1].thumb} title={comics[1].title} />
